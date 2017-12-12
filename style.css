@@ -1,0 +1,33 @@
+#login{
+  background:#eee;
+  opacity:0.9;
+  padding:3em;
+  border:#ccc 2px solid;
+  position:absolute;
+  top:150px;
+  left:50px;
+}
+
+#login input[type="text"], #login input[type="password"]{
+  padding:7px;
+  margin-bottom:10px;
+  border:1px #ccc solid;
+}
+
+
+
+#signup{
+  background:#eee;
+  opacity:0.9;
+  padding:3.5em;
+  border:#ccc 2px solid;
+  position:absolute;
+  top:100px;
+  left:900px;
+}
+
+#signup input[type="text"], #signup input[type="password"]{
+  padding:7px;
+  margin-bottom:10px;
+  border:1px #ccc solid;
+}

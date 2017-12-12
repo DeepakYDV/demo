@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="login">
+      <form action="login.php" method="POST">
+        <div>
+          <label for="username">Username</label>
+          <br>
+          <input type="text" name="uid" placeholder="Username">
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <br>
+          <input type="text" name="pwd" placeholder="Password">
+        </div>
+        <input type="submit" value="LOG IN">
+
+
+
+	</form><br>
+    </div>
+
+    <div id="signup">
+      <form action="signup.php" method="POST">
+         <div>
+            <label for="firstname">First Name:</label>
+            <br>
+            <input type="text" name="first" placeholder="Enter your first name" required="">
+         </div>
+
+         <div>
+           <label for="lastname">Last Name:</label>
+           <br>
+           <input type="text" name="last" placeholder="Enter your last name" required="">
+         </div>
+
+         <div>
+           <label for="email">E-mail:</label>
+           <br>
+           <input type="text"  name="email" placeholder="username@mail.com" required="">
+         </div>
+
+        <div>
+          <label for="username">Username:</label>
+          <br>
+          <input type="text" name="uid" placeholder="Enter your username">
+        </div>
+
+        <div>
+          <label for="password">Password:</label>
+          <br>
+          <input type="text" name="pwd" placeholder="Enter your password" required="">
+        </div>
+        <input type="submit" value="Register ME">
+      </form>
+    </div>
+  </div>
+</body>
+</html>
